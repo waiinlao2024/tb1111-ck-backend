@@ -1,0 +1,7 @@
+name = "tb1111-ck-backend"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# 关闭可观测性日志：请求 URL/请求体可能含 cookie，务必不要打开
+[observability]
+enabled = false
